@@ -2,7 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('calculatrice-form').addEventListener('submit', function(e) {
         e.preventDefault(); // Pour éviter le rechargement de la page lors de la soumission du formulaire
 
-        var number1 = parseFloat(document.getElementById('number1').value);
+        // textContent
+        // value pour les variable
+        var number1 = parseFloat(document.getElementById('number1').value); // parseFloat sert a utilisé les nombres flottant 
         var number2 = parseFloat(document.getElementById('number2').value);
         var operation = document.getElementById('operation').value;
 
